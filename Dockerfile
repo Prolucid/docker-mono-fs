@@ -3,7 +3,7 @@ MAINTAINER Daniel Covello
 ENV DEBIAN_FRONTEND noninteractive
 
 # The versions (github branches) that should be pulled and compiled
-ENV MONO_VERSION=mono-4.2.1.102
+ENV MONO_VERSION=mono-4.2.3.4
 
 # Use baseimage-docker's init system
 CMD ["/sbin/my_init"]
