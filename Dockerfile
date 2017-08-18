@@ -3,8 +3,8 @@ MAINTAINER Daniel Covello
 ENV DEBIAN_FRONTEND noninteractive
 
 # The versions (github branches) that should be pulled and compiled
-ENV MONO_VERSION=4.2.3.4
-ENV FS_VERSION=4.0.0.3-0xamarin1
+ENV MONO_VERSION=5.0.1.1
+ENV FS_VERSION=4.1.9-0xamarin2+debian7b1
 
 # Use baseimage-docker's init system
 CMD ["/sbin/my_init"]
